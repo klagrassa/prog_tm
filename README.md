@@ -13,7 +13,7 @@ This workspace provides a platform for simulating and evaluating P4-based traffi
   - Integrates with Mininet for network emulation.
   - See [BMv2 README](prog_tm_bmv2/README.md) for installation and usage.
 
-- [`scheduling_node_hls/`](scheduling_node_hls/):  
+- [`scheduling_node/`](scheduling_node/):  
   Contains a SystemC description of a scheduling node for hardware-level simulation and synthesis.
   - Used for high-level modeling and validation of scheduling algorithms.
   - Can be integrated with the BMv2 prototype for co-simulation.
@@ -32,12 +32,12 @@ This workspace provides a platform for simulating and evaluating P4-based traffi
    ```
 
 2. **Build the SystemC scheduling node:**
-   - Follow instructions in [`scheduling_node_hls/`](scheduling_node_hls/) (see its README or build scripts).
+   - Follow instructions in [`scheduling_node/`](scheduling_node/) (see its README or build scripts). The build process is the one from the [DRIM CPU architecture](https://github.com/ic-lab-duth/DRIM4HLS).
    - It builds the DRIM CPU and generates the `sim_sc` executable, which simulates the CPU using a compiled program based on templates in `core/src/schedulers`
 
 3. **Node synthesis via HLS**
    - Requires [Catapult HLS](https://www.mentor.com/hls-lp/catapult-high-level-synthesis/) for hardware synthesis (tested on Catapult HLS 2025.1).
-   - To synthesize the node, navigate to the `scheduling_node_hls/core` directory and run:
+   - To synthesize the node, navigate to the `scheduling_node/core` directory and run:
      ```sh
      catapult -f hls_to_synth_node_only.tcl
      ```

@@ -1,4 +1,4 @@
-# 🚦 P4 Traffic Manager Prototyping Platform
+# P4 Traffic Manager Prototyping Platform
 
 This workspace provides a platform for **simulating** and **evaluating** P4-based traffic management and scheduling policies.  
 It combines a **BMv2 prototype** (software switch) and a **SystemC (HLS compatible) scheduling node**.
@@ -37,7 +37,7 @@ It combines a **BMv2 prototype** (software switch) and a **SystemC (HLS compatib
    - Builds the DRIM CPU and generates the `sim_sc` executable
 
 3. **Node synthesis via HLS:**
-   - Requires [Catapult HLS](https://www.mentor.com/hls-lp/catapult-high-level-synthesis/) (tested on Catapult HLS 2025.1)
+   - Requires [Catapult HLS](https://www.mentor.com/hls-lp/catapult-high-level-synthesis/) (tested on Catapult HLS 2025.1 and SystemC 2.3.4)
    - To synthesize:
      ```sh
      cd scheduling_node/core
@@ -91,8 +91,3 @@ It combines a **BMv2 prototype** (software switch) and a **SystemC (HLS compatib
 - [Mininet](http://mininet.org/)
 - [SystemC](https://www.accellera.org/community/systemc)
 
----
-
-## 📄 License
-
-See [prog_tm_bmv2/LICENSE](prog_tm_bmv2/LICENSE).

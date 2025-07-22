@@ -17,7 +17,6 @@ It combines a **BMv2 prototype** (software switch) and a **SystemC (HLS compatib
 - [`scheduling_node/`](scheduling_node/)  
   ⚙️ SystemC scheduling node: hardware-level simulation and synthesis  
   - High-level modeling and validation of scheduling algorithms
-  - Can be integrated with BMv2 for co-simulation
 
 ---
 

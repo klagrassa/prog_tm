@@ -86,5 +86,5 @@ It combines a **BMv2 prototype** (software switch) and a **SystemC (HLS compatib
 - [BMv2 Documentation](prog_tm_bmv2/docs/simple_switch.md)
 - [P4 Language Specification](https://p4.org/specs/)
 - [Mininet](http://mininet.org/)
-- [SystemC](https://www.accellera.org/community/systemc)
+- [SystemC](https://www.accellera.org/)
 

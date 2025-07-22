@@ -76,8 +76,6 @@ It combines a **BMv2 prototype** (software switch) and a **SystemC (HLS compatib
 
 ## 🧩 Extending and Customizing
 
-- **Add new scheduling policies:**  
-  See [How to add policies](prog_tm_bmv2/papers_results/README.md#how-to-add-policies)
 - **Integrate custom externs:**  
   See [Custom Extern Example](prog_tm_bmv2/examples/custom_extern/README.md)
 
